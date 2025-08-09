@@ -1,0 +1,74 @@
+# Coupon Panel .gitignore
+
+# Dependencies
+/vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+config.php
+
+# Database backups
+*.sql.backup
+/backups/
+
+# Log files
+*.log
+/logs/
+error.log
+access.log
+
+# Cache and temporary files
+/cache/
+/tmp/
+/temp/
+session_*
+
+# Upload directory
+/uploads/
+/files/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Node modules (if using any frontend build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PHP specific
+*.tmp
+*.temp
+
+# Database connection config (if you want to keep it private)
+# Uncomment if you create separate config file
+# db_config.php
+
+# Sensitive files
+passwords.txt
+credentials.txt
+
+# Apache/Nginx config files
+.htaccess.backup
+nginx.conf.backup
